@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF38BA0621F2716D00F825CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF38BA0521F2716D00F825CC /* AppDelegate.swift */; };
+		DF38BA0821F2716D00F825CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF38BA0721F2716D00F825CC /* ViewController.swift */; };
+		DF38BA0B21F2716D00F825CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF38BA0921F2716D00F825CC /* Main.storyboard */; };
+		DF38BA0E21F2716D00F825CC /* Coin_Simulator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DF38BA0C21F2716D00F825CC /* Coin_Simulator.xcdatamodeld */; };
+		DF38BA1021F2716E00F825CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF38BA0F21F2716E00F825CC /* Assets.xcassets */; };
+		DF38BA1321F2716E00F825CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF38BA1121F2716E00F825CC /* LaunchScreen.storyboard */; };
+		DF38BA1E21F2716E00F825CC /* Coin_SimulatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF38BA1D21F2716E00F825CC /* Coin_SimulatorTests.swift */; };
+		DF38BA2921F2716E00F825CC /* Coin_SimulatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF38BA2821F2716E00F825CC /* Coin_SimulatorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF38BA1A21F2716E00F825CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF38B9FA21F2716D00F825CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF38BA0121F2716D00F825CC;
+			remoteInfo = "Coin Simulator";
+		};
+		DF38BA2521F2716E00F825CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF38B9FA21F2716D00F825CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF38BA0121F2716D00F825CC;
+			remoteInfo = "Coin Simulator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF38BA0221F2716D00F825CC /* Coin Simulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coin Simulator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF38BA0521F2716D00F825CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF38BA0721F2716D00F825CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DF38BA0A21F2716D00F825CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF38BA0D21F2716D00F825CC /* Coin_Simulator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Coin_Simulator.xcdatamodel; sourceTree = "<group>"; };
+		DF38BA0F21F2716E00F825CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF38BA1221F2716E00F825CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF38BA1421F2716E00F825CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF38BA1921F2716E00F825CC /* Coin SimulatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coin SimulatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF38BA1D21F2716E00F825CC /* Coin_SimulatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin_SimulatorTests.swift; sourceTree = "<group>"; };
+		DF38BA1F21F2716E00F825CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF38BA2421F2716E00F825CC /* Coin SimulatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coin SimulatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF38BA2821F2716E00F825CC /* Coin_SimulatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin_SimulatorUITests.swift; sourceTree = "<group>"; };
+		DF38BA2A21F2716E00F825CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF38B9FF21F2716D00F825CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF38BA1621F2716E00F825CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF38BA2121F2716E00F825CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF38B9F921F2716D00F825CC = {
+			isa = PBXGroup;
+			children = (
+				DF38BA0421F2716D00F825CC /* Coin Simulator */,
+				DF38BA1C21F2716E00F825CC /* Coin SimulatorTests */,
+				DF38BA2721F2716E00F825CC /* Coin SimulatorUITests */,
+				DF38BA0321F2716D00F825CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF38BA0321F2716D00F825CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF38BA0221F2716D00F825CC /* Coin Simulator.app */,
+				DF38BA1921F2716E00F825CC /* Coin SimulatorTests.xctest */,
+				DF38BA2421F2716E00F825CC /* Coin SimulatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF38BA0421F2716D00F825CC /* Coin Simulator */ = {
+			isa = PBXGroup;
+			children = (
+				DF38BA0521F2716D00F825CC /* AppDelegate.swift */,
+				DF38BA0721F2716D00F825CC /* ViewController.swift */,
+				DF38BA0921F2716D00F825CC /* Main.storyboard */,
+				DF38BA0F21F2716E00F825CC /* Assets.xcassets */,
+				DF38BA1121F2716E00F825CC /* LaunchScreen.storyboard */,
+				DF38BA1421F2716E00F825CC /* Info.plist */,
+				DF38BA0C21F2716D00F825CC /* Coin_Simulator.xcdatamodeld */,
+			);
+			path = "Coin Simulator";
+			sourceTree = "<group>";
+		};
+		DF38BA1C21F2716E00F825CC /* Coin SimulatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF38BA1D21F2716E00F825CC /* Coin_SimulatorTests.swift */,
+				DF38BA1F21F2716E00F825CC /* Info.plist */,
+			);
+			path = "Coin SimulatorTests";
+			sourceTree = "<group>";
+		};
+		DF38BA2721F2716E00F825CC /* Coin SimulatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DF38BA2821F2716E00F825CC /* Coin_SimulatorUITests.swift */,
+				DF38BA2A21F2716E00F825CC /* Info.plist */,
+			);
+			path = "Coin SimulatorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF38BA0121F2716D00F825CC /* Coin Simulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF38BA2D21F2716E00F825CC /* Build configuration list for PBXNativeTarget "Coin Simulator" */;
+			buildPhases = (
+				DF38B9FE21F2716D00F825CC /* Sources */,
+				DF38B9FF21F2716D00F825CC /* Frameworks */,
+				DF38BA0021F2716D00F825CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Coin Simulator";
+			productName = "Coin Simulator";
+			productReference = DF38BA0221F2716D00F825CC /* Coin Simulator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF38BA1821F2716E00F825CC /* Coin SimulatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF38BA3021F2716E00F825CC /* Build configuration list for PBXNativeTarget "Coin SimulatorTests" */;
+			buildPhases = (
+				DF38BA1521F2716E00F825CC /* Sources */,
+				DF38BA1621F2716E00F825CC /* Frameworks */,
+				DF38BA1721F2716E00F825CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF38BA1B21F2716E00F825CC /* PBXTargetDependency */,
+			);
+			name = "Coin SimulatorTests";
+			productName = "Coin SimulatorTests";
+			productReference = DF38BA1921F2716E00F825CC /* Coin SimulatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DF38BA2321F2716E00F825CC /* Coin SimulatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF38BA3321F2716E00F825CC /* Build configuration list for PBXNativeTarget "Coin SimulatorUITests" */;
+			buildPhases = (
+				DF38BA2021F2716E00F825CC /* Sources */,
+				DF38BA2121F2716E00F825CC /* Frameworks */,
+				DF38BA2221F2716E00F825CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF38BA2621F2716E00F825CC /* PBXTargetDependency */,
+			);
+			name = "Coin SimulatorUITests";
+			productName = "Coin SimulatorUITests";
+			productReference = DF38BA2421F2716E00F825CC /* Coin SimulatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF38B9FA21F2716D00F825CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Mathew Cheung";
+				TargetAttributes = {
+					DF38BA0121F2716D00F825CC = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					DF38BA1821F2716E00F825CC = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = DF38BA0121F2716D00F825CC;
+					};
+					DF38BA2321F2716E00F825CC = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = DF38BA0121F2716D00F825CC;
+					};
+				};
+			};
+			buildConfigurationList = DF38B9FD21F2716D00F825CC /* Build configuration list for PBXProject "Coin Simulator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF38B9F921F2716D00F825CC;
+			productRefGroup = DF38BA0321F2716D00F825CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF38BA0121F2716D00F825CC /* Coin Simulator */,
+				DF38BA1821F2716E00F825CC /* Coin SimulatorTests */,
+				DF38BA2321F2716E00F825CC /* Coin SimulatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF38BA0021F2716D00F825CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF38BA1321F2716E00F825CC /* LaunchScreen.storyboard in Resources */,
+				DF38BA1021F2716E00F825CC /* Assets.xcassets in Resources */,
+				DF38BA0B21F2716D00F825CC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF38BA1721F2716E00F825CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF38BA2221F2716E00F825CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF38B9FE21F2716D00F825CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF38BA0E21F2716D00F825CC /* Coin_Simulator.xcdatamodeld in Sources */,
+				DF38BA0821F2716D00F825CC /* ViewController.swift in Sources */,
+				DF38BA0621F2716D00F825CC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF38BA1521F2716E00F825CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF38BA1E21F2716E00F825CC /* Coin_SimulatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF38BA2021F2716E00F825CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF38BA2921F2716E00F825CC /* Coin_SimulatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF38BA1B21F2716E00F825CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF38BA0121F2716D00F825CC /* Coin Simulator */;
+			targetProxy = DF38BA1A21F2716E00F825CC /* PBXContainerItemProxy */;
+		};
+		DF38BA2621F2716E00F825CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF38BA0121F2716D00F825CC /* Coin Simulator */;
+			targetProxy = DF38BA2521F2716E00F825CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF38BA0921F2716D00F825CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF38BA0A21F2716D00F825CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF38BA1121F2716E00F825CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF38BA1221F2716E00F825CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF38BA2B21F2716E00F825CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF38BA2C21F2716E00F825CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF38BA2E21F2716E00F825CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Coin Simulator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mathewcheung.Coin-Simulator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF38BA2F21F2716E00F825CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Coin Simulator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mathewcheung.Coin-Simulator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DF38BA3121F2716E00F825CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Coin SimulatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mathewcheung.Coin-SimulatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Coin Simulator.app/Coin Simulator";
+			};
+			name = Debug;
+		};
+		DF38BA3221F2716E00F825CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Coin SimulatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mathewcheung.Coin-SimulatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Coin Simulator.app/Coin Simulator";
+			};
+			name = Release;
+		};
+		DF38BA3421F2716E00F825CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Coin SimulatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mathewcheung.Coin-SimulatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Coin Simulator";
+			};
+			name = Debug;
+		};
+		DF38BA3521F2716E00F825CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Coin SimulatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mathewcheung.Coin-SimulatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Coin Simulator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF38B9FD21F2716D00F825CC /* Build configuration list for PBXProject "Coin Simulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF38BA2B21F2716E00F825CC /* Debug */,
+				DF38BA2C21F2716E00F825CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF38BA2D21F2716E00F825CC /* Build configuration list for PBXNativeTarget "Coin Simulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF38BA2E21F2716E00F825CC /* Debug */,
+				DF38BA2F21F2716E00F825CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF38BA3021F2716E00F825CC /* Build configuration list for PBXNativeTarget "Coin SimulatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF38BA3121F2716E00F825CC /* Debug */,
+				DF38BA3221F2716E00F825CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF38BA3321F2716E00F825CC /* Build configuration list for PBXNativeTarget "Coin SimulatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF38BA3421F2716E00F825CC /* Debug */,
+				DF38BA3521F2716E00F825CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DF38BA0C21F2716D00F825CC /* Coin_Simulator.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DF38BA0D21F2716D00F825CC /* Coin_Simulator.xcdatamodel */,
+			);
+			currentVersion = DF38BA0D21F2716D00F825CC /* Coin_Simulator.xcdatamodel */;
+			path = Coin_Simulator.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DF38B9FA21F2716D00F825CC /* Project object */;
+}
